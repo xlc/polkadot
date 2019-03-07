@@ -13,32 +13,32 @@ safe-mix = { version = "1.0", default-features = false}
 polkadot-primitives = { path = "../primitives", default-features = false }
 parity-codec = { version = "3.0", default-features = false }
 parity-codec-derive = { version = "3.0", default-features = false }
-substrate-serializer = { git = "https://github.com/paritytech/substrate", default-features = false }
-sr-std = { git = "https://github.com/paritytech/substrate", default-features = false }
-sr-io = { git = "https://github.com/paritytech/substrate", default-features = false }
-srml-support = { git = "https://github.com/paritytech/substrate", default-features = false }
-substrate-primitives = { git = "https://github.com/paritytech/substrate", default-features = false }
-substrate-client = { git = "https://github.com/paritytech/substrate", default-features = false }
-substrate-inherents = { git = "https://github.com/paritytech/substrate", default-features = false }
-substrate-consensus-aura-primitives = { git = "https://github.com/paritytech/substrate", default-features = false }
-srml-aura = { git = "https://github.com/paritytech/substrate", default-features = false }
-srml-balances = { git = "https://github.com/paritytech/substrate", default-features = false }
-srml-consensus = { git = "https://github.com/paritytech/substrate", default-features = false }
-srml-council = { git = "https://github.com/paritytech/substrate", default-features = false }
-srml-democracy = { git = "https://github.com/paritytech/substrate", default-features = false }
-srml-executive = { git = "https://github.com/paritytech/substrate", default-features = false }
-srml-grandpa = { git = "https://github.com/paritytech/substrate", default-features = false }
-srml-indices = { git = "https://github.com/paritytech/substrate", default-features = false }
-sr-primitives = { git = "https://github.com/paritytech/substrate", default-features = false }
-srml-session = { git = "https://github.com/paritytech/substrate", default-features = false }
-srml-staking = { git = "https://github.com/paritytech/substrate", default-features = false }
-srml-sudo = { git = "https://github.com/paritytech/substrate", default-features = false }
-srml-system = { git = "https://github.com/paritytech/substrate", default-features = false }
-srml-timestamp = { git = "https://github.com/paritytech/substrate", default-features = false }
-srml-treasury = { git = "https://github.com/paritytech/substrate", default-features = false }
-srml-upgrade-key = { git = "https://github.com/paritytech/substrate", default-features = false }
-srml-fees = { git = "https://github.com/paritytech/substrate", default-features = false }
-sr-version = { git = "https://github.com/paritytech/substrate", default-features = false }
+substrate-serializer = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "bkchr-validate_block" }
+sr-std = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "bkchr-validate_block" }
+sr-io = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "bkchr-validate_block" }
+srml-support = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "bkchr-validate_block" }
+substrate-primitives = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "bkchr-validate_block" }
+substrate-client = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "bkchr-validate_block" }
+substrate-inherents = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "bkchr-validate_block" }
+substrate-consensus-aura-primitives = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "bkchr-validate_block" }
+srml-aura = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "bkchr-validate_block" }
+srml-balances = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "bkchr-validate_block" }
+srml-consensus = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "bkchr-validate_block" }
+srml-council = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "bkchr-validate_block" }
+srml-democracy = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "bkchr-validate_block" }
+srml-executive = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "bkchr-validate_block" }
+srml-grandpa = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "bkchr-validate_block" }
+srml-indices = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "bkchr-validate_block" }
+sr-primitives = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "bkchr-validate_block" }
+srml-session = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "bkchr-validate_block" }
+srml-staking = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "bkchr-validate_block" }
+srml-sudo = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "bkchr-validate_block" }
+srml-system = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "bkchr-validate_block" }
+srml-timestamp = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "bkchr-validate_block" }
+srml-treasury = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "bkchr-validate_block" }
+srml-upgrade-key = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "bkchr-validate_block" }
+srml-fees = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "bkchr-validate_block" }
+sr-version = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "bkchr-validate_block" }
 
 [dev-dependencies]
 hex-literal = "0.1.0"

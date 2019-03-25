@@ -252,7 +252,7 @@ pub struct AttestedCandidate {
 	/// The candidate data.
 	pub candidate: CandidateReceipt,
 	/// Validity attestations.
-	pub validity_votes: Vec<(ValidatorId, ValidityAttestation)>,
+	pub validity_votes: Vec<(usize, ValidityAttestation)>,
 }
 
 impl AttestedCandidate {

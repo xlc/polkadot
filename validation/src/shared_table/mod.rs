@@ -49,8 +49,8 @@ struct TableContext {
 }
 
 impl table::Context for TableContext {
-	fn is_member_of(&self, authority: &SessionKey, group: &ParaId) -> bool {
-		self.groups.get(group).map_or(false, |g| g.validity_guarantors.contains(authority))
+	fn is_member_of(&self, authority: usize, group: &ParaId) -> bool {
+		self.groups.get(group).map_or(false, |g| g.index_mapping.get(&authority).is_some())
 	}
 
 	fn requisite_votes(&self, group: &ParaId) -> usize {

@@ -194,6 +194,8 @@ pub trait Network {
 pub struct GroupInfo {
 	/// Authorities meant to check validity of candidates.
 	pub validity_guarantors: HashSet<SessionKey>,
+	/// Mapping from validator index to public key.
+	pub index_mapping: HashMap<usize, SessionKey>,
 	/// Number of votes needed for validity.
 	pub needed_validity: usize,
 }
